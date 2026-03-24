@@ -80,10 +80,9 @@
 
 /* ── INPUT CARD ── */
 .inputCard {
-  background: #0d0d0d;
-  border: 1px solid #333;
+  background: #242424;
+  border: 1px solid #404040;
   padding: 2rem;
-  box-shadow: 0 0 0 1px #1a1a1a;
 }
 
 .inputCardLabel {
@@ -97,9 +96,11 @@
 
 .inputRow {
   display: flex;
-  border: 1px solid #3a3a3a;
-  margin-bottom: 10px;
-  transition: border-color 0.2s;
+  align-items: center;
+  border: 1px solid #505050;
+  background: #161616;
+  margin-bottom: 0.75rem;
+  height: 52px;
 }
 
 .inputRow:focus-within { border-color: #fff; }
@@ -147,7 +148,12 @@
 }
 
 .analyzeBtn:hover:not(:disabled) { background: #e8e5e0; }
-.analyzeBtn:disabled { background: #111; color: #3a3a3a; cursor: not-allowed; border: 1px solid #2a2a2a; }
+.analyzeBtn:disabled {
+  background: transparent;
+  color: #666;
+  cursor: not-allowed;
+  border: 1px solid #505050;
+}
 
 .btnInner { display: flex; align-items: center; justify-content: center; gap: 12px; }
 .btnArrow { transition: transform 0.2s; }
@@ -1125,3 +1131,5 @@
   .statItem { border-right: none; border-bottom: 1px solid #2a2a2a; }
   .statItem:last-child { border-bottom: none; }
 }
+
+.urlInput::placeholder { color: #666; }
