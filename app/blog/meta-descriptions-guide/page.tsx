@@ -3,10 +3,8 @@ import Link from 'next/link'
 import styles from '../post.module.css'
 
 export const metadata: Metadata = {
-  title: 'Meta Descriptions: The 30-Minute Fix That Gets You More Clicks
-Local SEO for Small Business: The Complete 2026 Guide',
-  description: 'Most business websites have no meta descriptions. Here is what they are, why they matter, and how to write them in 30 minutes.
-Everything a small business needs to rank in Google Maps and local search results. Complete 2026 guide.',
+  title: 'Meta Descriptions: The 30-Minute Fix That Gets You More Clicks',
+  description: 'Most business websites have no meta descriptions. Here is what they are, why they matter, and how to write them in 30 minutes.',
   alternates: { canonical: 'https://defacedworld.com/blog/meta-descriptions-guide' },
 }
 
