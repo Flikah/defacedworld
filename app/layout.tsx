@@ -54,7 +54,7 @@ const organizationSchema = {
   founder: { '@type': 'Person', name: 'Spencer Wilkinson' },
   address: { '@type': 'PostalAddress', addressLocality: 'Greenville', addressRegion: 'SC', addressCountry: 'US' },
   areaServed: 'US',
-  email: 'spencer@defacedworld.com',
+  email: 'spencer@flikah.com',
   priceRange: '$497 - $1497',
   serviceType: ['SEO Audit', 'SEO Implementation', 'Local SEO', 'Google Business Profile Setup', 'Website Copywriting'],
   sameAs: ['https://www.linkedin.com/company/defacedworld', 'https://twitter.com/defacedworld'],

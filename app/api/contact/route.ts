@@ -40,7 +40,7 @@ Sent from defacedworld.com contact form
       },
       body: JSON.stringify({
         from: 'defacedworld <noreply@defacedworld.com>',
-        to: [process.env.CONTACT_EMAIL || 'spencer@defacedworld.com'],
+        to: [process.env.CONTACT_EMAIL || 'spencer@flikah.com'],
         reply_to: email,
         subject: `New enquiry from ${name} — ${packageLabels[pkg] || 'defacedworld'}`,
         text: emailBody,
@@ -128,7 +128,7 @@ Sent from defacedworld.com contact form
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'Spencer at defacedworld <spencer@defacedworld.com>',
+        from: 'Spencer at defacedworld <spencer@flikah.com>',
         to: [email],
         subject: `Got your message, ${name.split(' ')[0]}`,
         html: `
@@ -161,7 +161,7 @@ Sent from defacedworld.com contact form
     <div class="sig">
       — Spencer<br>
       defacedworld.com<br>
-      <a href="mailto:spencer@defacedworld.com">spencer@defacedworld.com</a>
+      <a href="mailto:spencer@flikah.com">spencer@flikah.com</a>
     </div>
 
     <div class="footer">

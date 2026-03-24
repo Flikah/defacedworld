@@ -11,7 +11,7 @@ export default function Footer() {
             <Link key={href} href={href} className={styles.link}>{label}</Link>
           ))}
         </div>
-        <a href="mailto:spencer@defacedworld.com" className={styles.email}>spencer@defacedworld.com</a>
+        <a href="mailto:spencer@flikah.com" className={styles.email}>spencer@flikah.com</a>
       </div>
       <div className={styles.bottom}>
         <span>© {new Date().getFullYear()} DEFACEDWORLD</span>
