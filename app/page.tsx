@@ -133,9 +133,9 @@ export default function Home() {
               <span>DE<span className={styles.struckText}>FACED</span>.</span>
             </h1>
             <p className={styles.heroDesc}>
-              Enter any URL. Get an instant audit — every broken SEO signal,
-              missing keyword, and GEO gap making you invisible to Google
-              <em> and</em> AI systems like ChatGPT and Perplexity.
+              Enter any URL. Get a real SEO + GEO audit in 30 seconds — free.
+              See every gap making you invisible to Google <em>and</em> ChatGPT,
+              before you spend a dollar.
             </p>
           </div>
 
@@ -538,11 +538,11 @@ export default function Home() {
                 <div className={styles.lockBox}>
                   <p className={styles.lockLabel}>FULL REPORT LOCKED</p>
                   <p className={styles.lockDesc}>
-                    Full keyword map, business growth strategy, GEO implementation roadmap,
-                    and a priority fix plan with hour and cost estimates for every issue found.
+                    Complete keyword map, business growth strategy, full GEO implementation
+                    roadmap, and a priority fix plan with time and cost estimates for every issue found.
                   </p>
                   <a href="/contact?pkg=audit" className={styles.lockBtn}>
-                    GET FULL REPORT — $497
+                    GET MY FULL REPORT — $497
                   </a>
                   <p className={styles.lockOr}>
                     or <a href="/services">view all packages</a>
@@ -586,7 +586,7 @@ export default function Home() {
                 ['01', 'Enter URL', 'Any live website. Takes 3 seconds.'],
                 ['02', 'We Analyze', 'SEO, GEO, keywords, local signals, AI visibility.'],
                 ['03', 'Get Report', 'Free SEO + GEO preview instantly. Full report: $497.'],
-                ['04', 'We Fix It', 'Hand over access. We implement everything. Done.'],
+                ['04', 'We Fix It', 'Hand over access. We implement every fix. Done in days, not months.'],
               ].map(([n, t, d]) => (
                 <div key={n} className={styles.howStep}>
                   <p className={styles.howN}>{n}</p>

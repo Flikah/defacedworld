@@ -15,5 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/local-seo-for-small-business`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/blog/google-business-profile-setup`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/llm-seo-geo-guide`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/seo-for-service-businesses`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/blog/how-to-rank-on-chatgpt`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/technical-seo-checklist`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
   ]
 }
