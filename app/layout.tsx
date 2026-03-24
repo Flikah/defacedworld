@@ -33,9 +33,6 @@ export const metadata: Metadata = {
   verification: {
     google: '8enbnBlS1oyXSj7Up2eIN2I97rHUrd7DdGY76KYLphk',
   },
-  verification: {
-    google: '8enbnBlS1oyXSj7Up2eIN2I97rHUrd7DdGY76KYLphk',
-  },
   robots: {
     index: true,
     follow: true,
