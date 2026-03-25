@@ -15,6 +15,30 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'seo-for-service-businesses',
+    title: "SEO for Service Businesses: Why You're Invisible (And How to Fix It)",
+    desc: 'Plumbers, lawyers, cleaners, consultants — service businesses get ignored by Google for the same fixable reasons. Here is the complete guide to ranking.',
+    date: 'March 2026',
+    readTime: '10 min read',
+    tag: 'Local SEO',
+  },
+  {
+    slug: 'how-to-rank-on-chatgpt',
+    title: 'How to Rank on ChatGPT: Get Your Business Cited by AI Search',
+    desc: '400 million people use ChatGPT weekly. Here is the exact step-by-step guide to getting your business cited by ChatGPT, Perplexity, and Google AI Overviews.',
+    date: 'March 2026',
+    readTime: '11 min read',
+    tag: 'AI Search · GEO',
+  },
+  {
+    slug: 'technical-seo-checklist',
+    title: 'Technical SEO Checklist: 20 Checks Every Website Needs in 2025',
+    desc: 'Most small business websites have at least 5 of these 20 technical issues. Each one is silently costing you traffic and leads. Work through this list.',
+    date: 'March 2026',
+    readTime: '12 min read',
+    tag: 'Technical SEO',
+  },
+    {
     slug: 'llm-seo-geo-guide',
     title: 'LLM SEO & GEO: How to Get Your Business Cited by ChatGPT and Perplexity',
     desc: 'ChatGPT, Perplexity, and Google AI Overviews are how millions of people now find businesses. AI-referred sessions jumped 527% in 2025. Here is exactly how to make sure your business gets cited.',
